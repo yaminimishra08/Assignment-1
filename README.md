@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# React Assignment Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
 
-## Available Scripts
+This project is a React-based application built to demonstrate core React concepts such as JSX, components, props, and list rendering.
+It consists of multiple tasks that showcase how dynamic UI can be created using React.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧱 Application Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application is divided into the following tasks:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Task 1 – Personal Info Display
+* Displays name, profession, and hobby using JSX.
+* Demonstrates basic JSX rendering.
 
-### `npm test`
+### Task 2 – Current Date & Time
+* Dynamically displays the current date and time.
+* Uses JavaScript functions inside JSX.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Task 3 – Dynamic Greeting
+* Displays a greeting message based on a variable.
+* Demonstrates conditional rendering in JSX.
 
-### `npm run build`
+### Task 4 – List Rendering using map()
+* Displays a list of items using JSON data.
+* Each item contains:
+ - title
+ - url
+ - author
+ - num_comments
+ - points
+ - objectID
+* Uses map() to render data as a table.
+* Uses key attribute for efficient rendering.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Task 5 – User Card Component
+* Functional component that accepts props:
+- name
+- age
+- email
+* Displays user details dynamically.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Task 6 – Product List (Parent-Child)
+* Parent component passes product data to child component.
+* Each product contains:
+- name
+- price
+* Demonstrates component reusability and props flow.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎨 Styling & Design Approach
+* Simple and clean UI design.
+* CSS used for layout and basic styling.
+* Focus on functionality over heavy design.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📱 Responsiveness
+* Basic responsive layout using CSS.
+* Works across different screen sizes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌟 Key Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- JSX rendering
+- Dynamic data display
+- Conditional rendering
+- List rendering using map()
+- Component-based architecture
+- Props usage (parent → child communication)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Add state management using useState
+- Add routing using React Router
+- Improve UI with better styling
+- Add API integration for dynamic data
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🗂 Repository Structure
+```
+src/
+tasks/
+Task1.js
+Task2.js
+Task3.js
+Task4.js
+Task5.js
+Task6.js 
+ProductItem.js
+App.js
+App.css
+README.md
+.gitignore
+```
 
-### Analyzing the Bundle Size
+* Each task is implemented as a separate component.
+* App.js acts as the main entry point.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The project follows the Git workflow:  
+`dev` → `stage` → `main`
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 Technologies Used
 
-### Advanced Configuration
+* React.js
+* JavaScript (ES6+)
+* JSX
+* CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🔗 Connect With Me
+- LinkedIn: [www.linkedin.com/in/yaminimishra0804](https://www.linkedin.com/in/yaminimishra0804)  
+- GitHub: [https://github.com/yaminimishra08](https://github.com/yaminimishra08)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📎 Submission
+* This repository contains the React Assignment Project.
+* Demonstrates JSX, components, props, and list rendering.
+* The project follows the Git workflow: `dev → stage → main`.
