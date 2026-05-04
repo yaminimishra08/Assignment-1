@@ -1,6 +1,7 @@
 // Import React library
 import React from "react";
 
+// Functional component
 function ProductItem(props) {
   return (
     <div>

@@ -1,7 +1,8 @@
- // Import React
+// Import React
 import React from "react";
 //Styling
 import './App.css';
+
 //Importing Task1 components
 import Task1 from "./tasks/Task1";
 
@@ -20,6 +21,7 @@ import Task5 from "./tasks/Task5";
 //Importing Task6 components
 import Task6 from "./tasks/Task6";
 
+// Functional component
 function App() {
   return (
     <div className="App">

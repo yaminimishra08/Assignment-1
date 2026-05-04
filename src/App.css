@@ -7,7 +7,7 @@
   color: #2c2c2c;
 }
 
-/* Headings */
+/* For all the headings Styles */
 h1 {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -16,6 +16,7 @@ h1 {
 
 /* Task blocks */
 div {
+  text-align: center;
   margin-bottom: 20px;
   background: #ffffff;
   padding: 15px;
@@ -23,7 +24,7 @@ div {
   border: 1px solid #f0d6d6;
 }
 
-/* Table styling */
+/* Table styling for the Task 4 */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -33,12 +34,14 @@ table {
   overflow: hidden;
 }
 
+/* Table heading*/
 th {
   background-color: #f7c6b5; /* soft peach */
   color: #2c2c2c;
   padding: 10px;
 }
 
+/*Table Data*/
 td {
   text-align: center;
   padding: 10px;

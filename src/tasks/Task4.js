@@ -1,6 +1,7 @@
 // Import React library
 import React from "react";
 
+// Variable for dynamic book name
 const book = [
   {
     objectID: 1,
@@ -28,12 +29,14 @@ const book = [
   },
 ];
 
+// Functional component
 function Task4() {
   return (
     <div style={{ padding: "20px" }}>
         {/* Heading of the Task 1*/}
         <h2>Book List</h2>
         
+        {/*Inline CSS*/}
         <table border="1" cellPadding="10" style={{ borderCollapse: "collapse" }}>
             <thead>
                 <tr>
